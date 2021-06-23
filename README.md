@@ -3,7 +3,7 @@
 
 ```
  module "rds_cluster" {
-  source  = "osmdilya/rds_cluster/aws"
+  source  = "osmdilya/rds-cluster/aws"
 
   cluster_identifier      = "aurora-cluster-demo"
   engine                  = "aurora-mysql"
